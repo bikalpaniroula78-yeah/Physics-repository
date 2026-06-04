@@ -1,0 +1,84 @@
+body {
+    background-color: lavender;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin: 0;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+}
+h1 {
+    font-weight: 500;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+h2 {
+    font-weight: 500;
+    color: #1e293b;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #1e293b;
+}
+#esewa-btn{
+    background-color: #60bb46;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+#esewa-btn:hover{
+    background-color: #52a33c;
+}
+
+.experiment-dropdown {
+    max-width: 650px; 
+    width: 100%; 
+    margin: 0 auto 15px auto; 
+    text-align: left; 
+    background: white; 
+    padding: 15px; 
+    border-radius: 4px; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.experiment-header {
+    font-size: 18px; 
+    font-weight: 600; 
+    color: #1e293b; 
+    cursor: pointer;
+}
+
+
+.experiment-content {
+    margin-top: 15px; 
+    text-align: center;
+}
+
+.thumbnail-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+}
+.thumbnail{
+    width: 120px;
+    height:160px;
+    object-fit: cover;
+    border:2px solid #cbd5e1;
+    border-radius: 6px;
+    transition:transform 0.2s ease, border-color 0.2s ease;
+}
+.thumbnail:hover{
+    transform: scale(1.05);
+    border-color:#3b82f6;
+}
